@@ -1,11 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import Clock from "./Clock";
+import Todo from "./Todo";
 
 const Content = () => {
-    return <Container>
-        <Clock />
-    </Container>;
+  return <Container>
+    <Clock />
+    <Todo />
+  </Container>;
 };
 
 const Container = styled.div`
